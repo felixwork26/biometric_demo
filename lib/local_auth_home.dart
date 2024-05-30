@@ -111,6 +111,7 @@ class _LocalAuthHomeState extends State<LocalAuthHome> {
         options: const AuthenticationOptions(
           stickyAuth: true,
           biometricOnly: true,
+          useErrorDialogs: true
         ),
       );
       setState(() {
